@@ -1,0 +1,21 @@
+{
+  "name": "tsx-coverage-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@japa/expect": "^3.0.0-1",
+    "@japa/runner": "^3.0.0-9",
+    "c8": "^8.0.1",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "c8 tsx bin/test.ts",
+    "test-tsx-421": "c8 tsx-4.2.1/node_modules/.bin/tsx bin/test.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}

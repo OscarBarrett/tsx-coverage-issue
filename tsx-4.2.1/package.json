@@ -1,0 +1,9 @@
+{
+  "name": "tsx-4.2.1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "4.2.1"
+  }
+}
